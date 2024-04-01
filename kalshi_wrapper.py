@@ -118,7 +118,7 @@ def get_market_orderbook(kalshi_api, market_id, output_format='dict'):
         print(f"An error occurred: {e}")
 
 
-def get_combined_market_data(kalshi_api):
+def get_combined_market_data(kalshi_api, days_ahead):
     """
     Fetches market data and the corresponding order book for each market, combining the information into a single DataFrame with only the subtitle and the orderbook.
 
@@ -129,7 +129,7 @@ def get_combined_market_data(kalshi_api):
     - A pandas DataFrame with each market's subtitle and the corresponding order book.
     """
     # First, get the brackets (markets closing today) as a DataFrame
-    brackets_df = get_brackets(kalshi_api, 1, output_format='df')
+    brackets_df = get_brackets(kalshi_api, days_ahead, output_format='df')
 
     # Initialize a list to hold the subtitle and order book data for each market
     combined_data = []
