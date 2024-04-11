@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: openbb-econometrics
+Version: 1.1.4
+Summary: Econometrics Toolkit for OpenBB
+Author: OpenBB Team
+Author-email: hello@openbb.co
+Requires-Python: >=3.8,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: arch (>=5.5.0,<6.0.0)
+Requires-Dist: linearmodels (<=4.25)
+Requires-Dist: openbb-core (>=1.1.5,<2.0.0)
+Requires-Dist: scipy (>=1.10.1,<2.0.0)
+Requires-Dist: statsmodels (>=0.14.0,<0.15.0)
+Description-Content-Type: text/markdown
+
+# Econometrics extension for OpenBB Platform
+
+This extension provides a set of econometrics tools.
+
+## Installation
+
+To install the extension, run the following command in this folder:
+
+```bash
+pip install openbb-econometrics
+```
+
+For development please check [Contribution Guidelines](https://github.com/OpenBB-finance/OpenBBTerminal/blob/develop/openbb_platform/CONTRIBUTING.md).
+
+Documentation available [here](https://docs.openbb.co/platform).
+

@@ -1,0 +1,3 @@
+[openbb_core_extension]
+technical=openbb_technical.technical_router:router
+

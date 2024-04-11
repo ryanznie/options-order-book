@@ -1,0 +1,3 @@
+[openbb_core_extension]
+crypto=openbb_crypto.crypto_router:router
+
